@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     val mutableMap = mutableMapOf("F" to 349, "F#" to 369,
         "G" to 392, "G#" to 415, "A" to 440, "A#" to 466, "B" to 493,
-        "C" to 523, "C#" to 554, "C#" to 587, "E" to 622)
+        "C" to 523, "C#" to 554, "C#" to 587, "E" to 622, "F13" to 659, "F#14" to 698)
 
     private val notes = arrayOf("F", "F#", "G", "G#", "A", "A#", "B", "C", "C#", "C#", "E")
     private val bends = arrayOf("1/2", "Full")
