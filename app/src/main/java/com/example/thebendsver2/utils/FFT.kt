@@ -6,7 +6,7 @@ import kotlin.math.sqrt
 class FFT {
 
     companion object {
-        fun calculateFrequency(buffer: ShortArray, read: Int): Any {
+        fun calculateFrequency(buffer: ShortArray, read: Int): Double {
             val fft = DoubleArray(read)
             for (i in buffer.indices) {
                 fft[i] = buffer[i].toDouble()
